@@ -260,7 +260,7 @@ markVims(){
 }
 
 cht(){
-    curl "cheat.sh/$1"
+    curl cheat.sh/"$*"
 }
 
 alias gpa='git add * && git commit -m "gpa commit" && git push'
