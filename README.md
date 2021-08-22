@@ -3,11 +3,11 @@
 ## Installing 
 
 ````
-stow nvim -c=/home/user
+stow nvim --target=/home/user
 ````
 
 ## Uninstalling 
 
 ````
-stow -D nvim -c=/home/user
+stow -D nvim --target=/home/user
 ````
