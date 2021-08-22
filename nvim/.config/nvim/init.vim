@@ -163,7 +163,8 @@ set shiftwidth=4
 set expandtab
 
 let mapleader = ","
-set rnu
+set number
+
 
 "Vim wiki
 set nocompatible
